@@ -1,0 +1,277 @@
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
+.container{
+	width: 80%;
+	margin-left: 10%;
+	overflow: hidden;
+}
+
+.clr{
+	clear: both;
+}
+
+header{
+	background-color: #35424a;
+	border-bottom: 5px solid orange;
+}
+
+header h1{
+	color: lightyellow;
+	float: left;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+header ul{
+	list-style: none;
+}
+
+header li{
+	display: inline;
+}
+
+header a{
+	color: white;
+	text-decoration: none;
+	padding-left: 20px;
+}
+
+header a:hover{
+	color: red;
+}
+
+#box{
+	background-image: url("../img/bg1.jpg");
+	min-height: 580px;
+	background-size: 100% 100%;
+}
+
+#box h1{
+	margin: 0 auto;
+	padding-top: 150px;
+	text-align: center;
+	line-height: 1.5em;
+	color: lightyellow;
+	text-shadow: 2px 2px 2px black;
+}
+
+#box1{
+	background-color: #35424a;
+}
+
+footer{
+	background-color: #35424a;
+	border-top: 5px solid orange;
+	color: lightgray;
+}
+
+footer nav{
+	text-align: center;
+	padding-top: 10px;
+}
+
+footer a{
+	padding: 0 50px;
+	font-size: 30px;
+}
+
+footer i{
+	color: lightgray;
+}
+
+/* style for welcome, dogs and cats page */
+.content{
+	border: 2px solid lightyellow;
+	margin: 10px auto;
+	height: 400px;
+	overflow: hidden;
+	color: lightgray;
+}
+
+.pet-info{
+	width: 70%;
+	box-sizing: border-box;
+	padding: 10px;	
+}
+
+.pet-image{
+	width: 30%;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.pet-image img{
+	width: 100%;
+	margin: 10px auto;
+	max-height: 350px;
+}
+
+.shop{
+	float: left;
+	width: 33%;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 20px;
+	color: lightyellow;
+}
+
+.shop img{
+	width: 70%;
+	height: 200px;
+}
+
+/* style for shopping page */
+
+#search{
+	text-align: center;
+	margin: 30px auto;
+}
+
+#search input{
+	width: 30%;
+	height: 30px;
+	font-size: 1.3em;
+	border-radius: 3px;
+	padding: 5px;
+}
+
+.shop input[type="button"]{
+	border-radius: 3px;
+	font-size: 1.1em;
+	padding: 5px auto;
+}
+
+.shop input[type="button"]:hover{
+	background-color: orange;
+}
+
+#cart, #purchase{
+	color: lightyellow;
+	text-align: center;
+}
+
+table, td, th{
+	border: 1px solid lightyellow;
+	border-collapse: collapse;
+}
+
+table{
+	width: 60%;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+th{
+	font-size: 1.2em;
+}
+
+tr{
+	height: 50px;
+}
+
+td{
+	padding: 5px;
+}
+
+.c1{
+	width: 55%;
+	box-sizing: border-box;
+}
+
+.c2{
+	width: 22%;
+	box-sizing: border-box;
+}
+
+#pur{
+	width: 20%;
+	padding: 10px 20px;
+	margin: 20px auto;
+	font-size: 1.5em;
+	border-radius: 5px;
+}
+
+#pur:hover{
+	background-color: orange;
+}
+
+#purchase input{
+	width: 50%;
+	margin: 10px auto;
+	border: 2px solid lightgray;
+	padding: 8px 16px;
+	font-size: 1.5em;
+	box-sizing: border-box;
+}
+
+#purchase p{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#purchase input[type="button"]{
+	width: 20%;
+	padding: 5px auto;
+	margin: 20px 5%;
+	font-size: 1.5em;
+	border-radius: 5px;
+}
+
+#purchase input[type="button"]:hover{
+	background-color: orange;
+}
+
+#purchase input.valid{
+	border-color: green;
+}
+
+#purchase input.invalid{
+	border-color: orange;
+}
+
+#purchase input + .incorrect{
+	height: 0;
+	opacity: 0;
+	color: orange;
+}
+
+#purchase input.invalid + .incorrect{
+	height: auto;
+	opacity: 1;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
